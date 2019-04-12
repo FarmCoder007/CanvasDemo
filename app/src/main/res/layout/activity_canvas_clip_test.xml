@@ -25,5 +25,9 @@
     <com.my.reader.clipcanvas.CanvasTestView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:visibility="gone"/>
+    <com.my.reader.clipcanvas.MathView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:visibility="visible"/>
 </LinearLayout>
