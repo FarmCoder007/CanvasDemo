@@ -8,13 +8,22 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".activity.CanvasClipTestActivity">
+
     <com.my.reader.clipcanvas.MaskView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="gone" />
 
-        <com.my.reader.clipcanvas.ClipView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:visibility="visible" />
+    <com.my.reader.clipcanvas.ClipView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+    <com.my.reader.clipcanvas.GradientDrawableTestView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+    <com.my.reader.clipcanvas.CanvasTestView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"/>
 </LinearLayout>

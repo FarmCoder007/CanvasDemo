@@ -46,7 +46,7 @@ public class MaskView extends View {
 //DIFFERENCE是第一次不同于第二次的部分显示出来A-B-------  【绘制A - (B与A重合的部分)】
 //REPLACE是显示第二次的B******      【只绘制B】
 //REVERSE_DIFFERENCE 是第二次不同于第一次的部分显示--------【绘制B - (A在B中重合的部分)】
-//INTERSECT交集显示A-(A-B)******* 【绘制ab交集】
+//INTERSECT交集显示A-(A-B)******* 【绘制ab交集 【默认的】】
 //UNION全部显示A+B******  【绘制a+b】
 //XOR补集 就是全集的减去交集剩余部分显示--------
         canvas.save();
