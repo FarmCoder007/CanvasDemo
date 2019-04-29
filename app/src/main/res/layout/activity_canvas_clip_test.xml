@@ -29,5 +29,15 @@
     <com.my.reader.clipcanvas.MathView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="visible"/>
+        android:visibility="gone"/>
+    <com.my.reader.clipcanvas.LightningView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="测试啊d d  dd"
+        android:textColor="@color/dark3"
+        android:gravity="center"
+        app:isAutoStart="true"
+        app:time_interval="12000"
+        android:background="@color/orange_main"
+        />
 </LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LightingText">
+        <attr name="isAutoStart" format="boolean" />
+        <attr name="lightColor" format="color" />
+        <attr name="time_interval" format="integer" />
+
+    </declare-styleable>
+
+</resources>
